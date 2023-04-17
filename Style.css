@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Press+Start+2P&display=swap");
+
+body {
+  background-image: url(Image/fond.jpg);
+  /*Mes un fond d'écran  */
+}
+
+table {
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Mes le fond de mon texte en transparent pour que ce soit plus visible */
+  justify-content: center;
+  /* indique la façon dont l'espace doit être réparti */
+  align-items: center;
+  /* définit une valeur "centre" */
+  border: solid black;
+  /* Mes des bordure (contour) sur par exemple un tableau de couleur noir */
+}
+
+.Tableau ol {
+  display: flex;
+  /* permet de visée de façon unique une balise de codage */
+  justify-content: center;
+  /* indique la façon dont l'espace doit être réparti */
+  border: solid 2px royalblue;
+  /* Mes des bordure (contour) sur par exemple un tableau de couleur bleu */
+}
+
+ol {
+  margin: 10px;
+  /* Donne la taille de ma marge */
+  border: solid 2px rgb(0, 9, 128);
+  /* Mes des bordure (contour) sur par exemple un tableau de couleur bleu */
+  align-items: center;
+  /* définit une valeur "centre" */
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Mes le fond de mon texte en transparent pour que ce soit plus visible */
+}
+
+img {
+  border: solid 2px black;
+  /* Mes un contour de couleur noir  */
+}
+
+ol li {
+  list-style: none;
+  /* Sert à enlever les point dans ma liste ordonnées  */
+  display: flex;
+  /* permet de visée de façon unique une balise de codage */
+  margin: 10px;
+  /* Donne la taille de ma marge */
+  justify-content: center;
+  /* indique la façon dont l'espace doit être réparti */
+  align-items: center;
+  /* définit une valeur "centre" */
+}
+
+h3 {
+  text-align: center;
+  /* Sert à centrer mon texte */
+  text-decoration: underline;
+  /* Sert à faire un contour sur mon titre */
+}
+
+H1 {
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Mes le fond de mon texte en transparent pour que ce soit plus visible */
+  text-decoration: underline;
+  /* Sert à faire un contour sur mon titre */
+  border: solid black;
+  /* Mes un contour de couleur noir  */
+}
+
+h2 {
+  text-decoration: underline;
+  /* Sert à faire un contour sur mon titre */
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Mes le fond de mon texte en transparent pour que ce soit plus visible */
+  border: solid black;
+  /* Mes un contour de couleur noir  */
+}
+
+p {
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Mes le fond de mon texte en transparent pour que ce soit plus visible */
+  border: solid black;
+  /* Mes un contour de couleur noir  */
+}
+
+ul {
+  border: solid black;
+  /* Mes un contour de couleur noir  */
+  font-size: large;
+  /* permet de donner une taille a mon texte */
+}
+
+caption {
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Mes le fond de mon texte en transparent pour que ce soit plus visible */
+  border: solid black;
+  /* Mes un contour de couleur noir  */
+}
+
+.paragraphe {
+  font-size: x-large;
+  /* permet de donner une taille a mon texte */
+}
